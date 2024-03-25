@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="passionLecture.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="20">
+            <Image
+                Source="logo.png"
+                HeightRequest="185"
+                Aspect="AspectFit"
+                BackgroundColor="#01497C"
+                SemanticProperties.Description="logo of the books reader" />
+
+            <Label
+                Text="Bienvenue"
+                Style="{StaticResource Headline}"
+                SemanticProperties.HeadingLevel="Level1" />
+
+            <Label
+                Text="Livres du moment"
+                Style="{StaticResource SubHeadline}"
+                SemanticProperties.HeadingLevel="Level2"
+                SemanticProperties.Description="Bienvenue dans votre application de lecture électronique"/>
+
+            <ImageButton
+                Source="livres/oliver_twist_main_page.jpg"
+                Clicked="OnCounterClicked"
+                IsVisible="True"
+                WidthRequest="250"
+               HeightRequest="300"
+            />
+            <Button
+                x:Name="voirPlus"
+                Text="Voir plus"
+                SemanticProperties.Hint="Affiche la liste de tout les livres"
+                Clicked="voirPLusAccueil"
+                WidthRequest="200"
+                HeightRequest="100"
+                HorizontalOptions="Fill">
+            </Button>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
