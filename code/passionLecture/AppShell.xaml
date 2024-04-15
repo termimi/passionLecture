@@ -13,13 +13,12 @@
     <TabBar>
         <Tab Title="Accueil">
             <ShellContent
-             Title="Home"
              ContentTemplate="{DataTemplate local:MainPage}"
-             Route="MainPage" />
+             Route="MainPage"
+            />
         </Tab>
         <Tab Title="Livres">
             <ShellContent
-                Title="Livres"   
                 ContentTemplate="{DataTemplate local:livres}"
                 Route="livres"
             />

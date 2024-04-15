@@ -18,7 +18,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("passionLecture")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+0849a890932d3c3ca907c240806724efae5fe666")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+abc918161c4f4670d85b5a10514f14baef2f4510")]
 [assembly: System.Reflection.AssemblyProductAttribute("passionLecture")]
 [assembly: System.Reflection.AssemblyTitleAttribute("passionLecture")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
