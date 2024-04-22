@@ -1,5 +1,9 @@
 using System;
 using System.IO;
+using Aspose.Pdf;
+using Aspose;
+using static System.Reflection.Metadata.BlobBuilder;
+using System.Reflection;
 namespace passionLecture;
 
 public partial class livres : ContentPage
@@ -7,15 +11,16 @@ public partial class livres : ContentPage
 	public livres()
 	{
 		InitializeComponent();
-        DisplayBooksArray();
+        //DisplayBooksArray();
 	}
 
     
 
     public string[] GetBooks()
     {
-       string[] test = Directory.GetDirectories(Directory.GetCurrentDirectory());
-       string folderPath = Path.Combine(Environment.CurrentDirectory, "Ressources/", "Images/", "livres/");
+       string bla = Directory.GetCurrentDirectory();
+       string test = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+        string folderPath = Path.Combine(Environment.CurrentDirectory, "Ressources/", "Images/", "livres/");
 
         if (Directory.Exists(folderPath))
         {
@@ -32,11 +37,17 @@ public partial class livres : ContentPage
     }
     public void DisplayBooksArray()
     {
+
         foreach (string book in GetBooks())
         {
             ImageButton bookCover = new ImageButton();
-            bookCover.Source = book;
+            bookCover.Source = "livres/"+book;
             booksPage.Children.Add(bookCover);
         }       
+    }
+    public void DisplayEbook(object sender, EventArgs e)
+    {
+        string bookPath = @"Resources\books\books\books\Dickens-Charles-Oliver-Twist.epub";
+        Document epubBook = new Document("books/Dickens-Charles-Oliver-Twist.epub", new EpubLoadOptions());
     }
 }
