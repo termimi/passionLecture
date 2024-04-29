@@ -5,4 +5,6 @@
 	<uses-permission android:name="android.permission.INTERNET" />
 	<uses-permission android:name="android.permission.ACCESS_MEDIA_LOCATION" />
 	<uses-sdk />
+	<application android:networkSecurityConfig="@xml/network_security_config">
+	</application>
 </manifest>
