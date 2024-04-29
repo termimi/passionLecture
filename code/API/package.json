@@ -1,0 +1,22 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": " API Rest projet 295",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/app.mjs"
+  },
+  "author": "Lordon Lucas / Belkhiria Sofiène",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.3",
+    "express-response-size": "^0.0.3",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.2",
+    "sequelize": "^6.37.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
