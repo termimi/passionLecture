@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\platforms\\android\\resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:platforms\\android\\resources\\xml\\network_security_config.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\livres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:livres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\livres.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -17,10 +17,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
@@ -39,25 +35,12 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "network_security_config.xml",
-              "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
-              "RelativeDocumentMoniker": "Platforms\\Android\\Resources\\xml\\network_security_config.xml",
-              "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\Platforms\\Android\\Resources\\xml\\network_security_config.xml",
-              "RelativeToolTip": "Platforms\\Android\\Resources\\xml\\network_security_config.xml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2024-04-29T13:28:05.545Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "livres.xaml.cs",
               "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml.cs",
               "RelativeDocumentMoniker": "livres.xaml.cs",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml.cs",
               "RelativeToolTip": "livres.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAHAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T11:09:59.971Z",
               "EditorCaption": ""
@@ -70,14 +53,14 @@
               "RelativeDocumentMoniker": "livres.xaml",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml",
               "RelativeToolTip": "livres.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA1AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-25T14:03:19.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
@@ -85,7 +68,8 @@
               "RelativeToolTip": "AppShell.xaml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T13:44:20.484Z"
+              "WhenOpened": "2024-03-25T13:44:20.484Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -95,21 +79,23 @@
               "RelativeDocumentMoniker": "MainPage.xaml.cs",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\MainPage.xaml.cs",
               "RelativeToolTip": "MainPage.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T12:35:46.875Z"
+              "WhenOpened": "2024-03-25T12:35:46.875Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\MainPage.xaml",
               "RelativeDocumentMoniker": "MainPage.xaml",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\MainPage.xaml",
               "RelativeToolTip": "MainPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABoAAAAMAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAIBJwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T12:36:22.645Z"
+              "WhenOpened": "2024-03-25T12:36:22.645Z",
+              "EditorCaption": ""
             }
           ]
         }

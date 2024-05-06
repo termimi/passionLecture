@@ -88,6 +88,10 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "VersOne.Epub": {
+              "target": "Package",
+              "version": "[3.3.1, )"
             }
           },
           "imports": [
@@ -135,6 +139,10 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "VersOne.Epub": {
+              "target": "Package",
+              "version": "[3.3.1, )"
             }
           },
           "imports": [
@@ -182,6 +190,10 @@
               "target": "Package",
               "version": "[8.0.3, )",
               "autoReferenced": true
+            },
+            "VersOne.Epub": {
+              "target": "Package",
+              "version": "[3.3.1, )"
             }
           },
           "imports": [
@@ -224,6 +236,10 @@
             "Microsoft.Maui.Controls.Compatibility": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "VersOne.Epub": {
+              "target": "Package",
+              "version": "[3.3.1, )"
             }
           },
           "imports": [

@@ -42,7 +42,7 @@ booksRouter.get("/", (req, res) => {
 
 //// Get one book by id
 
-booksRouter.get("/:id", auth, (req, res) => {
+booksRouter.get("/:id", /*auth,*/ (req, res) => {
     modelBook.findByPk(req.params.id).then((book) => {
         if (book === null) {
             const message =
@@ -51,6 +51,27 @@ booksRouter.get("/:id", auth, (req, res) => {
         }
         const message = `Le livre dont l'id vaut ${book.id} a bien été récupéré.`;
         res.json(success(message, book));
+    })
+        .catch((error) => {
+            const message =
+                "Le livre n'a pas pu être récupéré. Merci de réessayer dans quelques instants.";
+            res.status(500).json({ message, data: error });
+        });
+});
+
+booksRouter.get("/:id/epub", /*auth,*/ (req, res) => {
+    modelBook.findByPk(req.params.id).then((book) => {
+        if (book === null) {
+            const message =
+                "Le livre demandé n'existe pas. Merci de réessayer avec un autre identifiant.";
+            return res.status(404).json({ message });
+        }
+        const message = `Le livre dont l'id vaut ${book.id} a bien été récupéré.`;
+        res.set({
+            'Content-Type': 'application/epub+zip',
+            'Content-Disposition': 'attachment; filename="nom_du_fichier.epub"'
+          });
+        res.status(200).send(book.epub)
     })
         .catch((error) => {
             const message =

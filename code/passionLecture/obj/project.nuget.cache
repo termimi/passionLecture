@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "wi+00KoxFMxv3RpvUfXAoh7VIlr2CdSqPoemW33R679eTbDkDYJO+kFz+5X9GdYl/r6q3pqk2fokiLfy0bMBiw==",
+  "dgSpecHash": "ETUuuLRB3ol0HCMECt/MkKFR9qVOgiVvxXGGnXnzgxkMqujLQZP5U0nK2ZV6bYHsQxU35b1VjZicTacaDwG91g==",
   "success": true,
   "projectFilePath": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\passionLecture.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\po66qga\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
+    "C:\\Users\\po66qga\\.nuget\\packages\\versone.epub\\3.3.1\\versone.epub.3.3.1.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\xamarin.android.glide\\4.15.1.2\\xamarin.android.glide.4.15.1.2.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\xamarin.android.glide.annotations\\4.15.1.2\\xamarin.android.glide.annotations.4.15.1.2.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\xamarin.android.glide.disklrucache\\4.15.1.2\\xamarin.android.glide.disklrucache.4.15.1.2.nupkg.sha512",

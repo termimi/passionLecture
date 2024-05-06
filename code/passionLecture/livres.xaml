@@ -9,11 +9,23 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
         
-        <ImageButton
-            Source="livres/oliver_twist_main_page.jpg"
-            Clicked="DisplayEbook"
-            IsVisible="True"
-            WidthRequest="250"
-            HeightRequest="300"/> 
+       
+
+        <Button
+            x:Name="voirPlus"
+            Text="Voir Livre"
+            SemanticProperties.Hint="Affiche la liste de tout les livres"
+            Clicked="GetBooks2"
+            WidthRequest="200"
+            HeightRequest="100"
+            HorizontalOptions="Fill">   
+        </Button>
+        <Label 
+            x:Name="allBooksLabel"
+            Text="Livre"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+
     </VerticalStackLayout>
 </ContentPage>

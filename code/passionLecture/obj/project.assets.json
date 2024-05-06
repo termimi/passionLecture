@@ -805,6 +805,19 @@
           }
         }
       },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -3310,6 +3323,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -5823,6 +5849,19 @@
           }
         }
       },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -8328,6 +8367,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -10841,6 +10893,19 @@
           }
         }
       },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -13346,6 +13411,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -15859,6 +15937,19 @@
           }
         }
       },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "Xamarin.Android.Glide/4.15.1.2": {
         "type": "package",
         "dependencies": {
@@ -18364,6 +18455,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -20910,6 +21014,19 @@
             "rid": "win"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/android-arm": {
@@ -21630,6 +21747,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -22356,6 +22486,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/android-x64": {
@@ -23076,6 +23219,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -23802,6 +23958,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/iossimulator-x64": {
@@ -24522,6 +24691,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -25248,6 +25430,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-ios17.2/win10-x64": {
@@ -25968,6 +26163,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -26752,6 +26960,19 @@
             "rid": "win"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-arm": {
@@ -27472,6 +27693,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -28198,6 +28432,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/android-x64": {
@@ -28918,6 +29165,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -29644,6 +29904,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/iossimulator-x64": {
@@ -30364,6 +30637,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -31090,6 +31376,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-maccatalyst17.2/win10-x64": {
@@ -31810,6 +32109,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -32737,6 +33049,19 @@
             "rid": "win"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-arm": {
@@ -33572,6 +33897,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -34413,6 +34751,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/android-x64": {
@@ -35248,6 +35599,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -36089,6 +36453,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/iossimulator-x64": {
@@ -36927,6 +37304,19 @@
             "related": ".xml"
           }
         }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        }
       }
     },
     "net8.0-windows10.0.19041/maccatalyst-x64": {
@@ -37762,6 +38152,19 @@
         },
         "runtime": {
           "lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -38607,6 +39010,19 @@
         },
         "runtime": {
           "runtimes/win/lib/net7.0/System.Windows.Extensions.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "VersOne.Epub/3.3.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/VersOne.Epub.dll": {
             "related": ".xml"
           }
         }
@@ -41284,6 +41700,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "VersOne.Epub/3.3.1": {
+      "sha512": "wPLsX0nsCNrKkFyKHn49rDtx8oRkwLAjRL3Yt8SKyh08pzXFRyHbxfb/iG+NsQMcA/HkW9YSnadC0LcmrhpCNQ==",
+      "type": "package",
+      "path": "versone.epub/3.3.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/VersOne.Epub.dll",
+        "lib/net46/VersOne.Epub.xml",
+        "lib/netstandard1.3/VersOne.Epub.dll",
+        "lib/netstandard1.3/VersOne.Epub.xml",
+        "lib/netstandard2.0/VersOne.Epub.dll",
+        "lib/netstandard2.0/VersOne.Epub.xml",
+        "versone.epub.3.3.1.nupkg.sha512",
+        "versone.epub.nuspec"
+      ]
+    },
     "Xamarin.Android.Glide/4.15.1.2": {
       "sha512": "DcekP+BXm4jFMV7zjHEltj01uiXcItq1kjGa79pj/Vx1rk3Ac2VXdmwGw06HXDP8n2XZsDh8dAoSI48G4KODRA==",
       "type": "package",
@@ -43328,27 +43761,31 @@
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.3"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.3",
+      "VersOne.Epub >= 3.3.1"
     ],
     "net8.0-ios17.2": [
       "Aspose.PDF >= 24.4.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.3"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.3",
+      "VersOne.Epub >= 3.3.1"
     ],
     "net8.0-maccatalyst17.2": [
       "Aspose.PDF >= 24.4.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
       "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.3"
+      "Microsoft.NET.ILLink.Tasks >= 8.0.3",
+      "VersOne.Epub >= 3.3.1"
     ],
     "net8.0-windows10.0.19041": [
       "Aspose.PDF >= 24.4.0",
       "Microsoft.Extensions.Logging.Debug >= 8.0.0",
       "Microsoft.Maui.Controls >= 8.0.7",
-      "Microsoft.Maui.Controls.Compatibility >= 8.0.7"
+      "Microsoft.Maui.Controls.Compatibility >= 8.0.7",
+      "VersOne.Epub >= 3.3.1"
     ]
   },
   "packageFolders": {
@@ -43440,6 +43877,10 @@
             "target": "Package",
             "version": "[8.0.3, )",
             "autoReferenced": true
+          },
+          "VersOne.Epub": {
+            "target": "Package",
+            "version": "[3.3.1, )"
           }
         },
         "imports": [
@@ -43487,6 +43928,10 @@
             "target": "Package",
             "version": "[8.0.3, )",
             "autoReferenced": true
+          },
+          "VersOne.Epub": {
+            "target": "Package",
+            "version": "[3.3.1, )"
           }
         },
         "imports": [
@@ -43534,6 +43979,10 @@
             "target": "Package",
             "version": "[8.0.3, )",
             "autoReferenced": true
+          },
+          "VersOne.Epub": {
+            "target": "Package",
+            "version": "[3.3.1, )"
           }
         },
         "imports": [
@@ -43576,6 +44025,10 @@
           "Microsoft.Maui.Controls.Compatibility": {
             "target": "Package",
             "version": "[8.0.7, )"
+          },
+          "VersOne.Epub": {
+            "target": "Package",
+            "version": "[3.3.1, )"
           }
         },
         "imports": [
