@@ -29,15 +29,43 @@ booksRouter.get("/", (req, res) => {
             res.json(success(message, books));
         });
     }
-    modelBook.findAll({ order: ["title"] }).then((books) => {
+    modelBook.findAll({order: ["title"] }).then((books) => {
         const message = "La liste des livres a bien été récupérée.";
         res.json(success(message, books));
     })
-        .catch((error) => {
-            const message =
-                "La liste des livres n'a pas pu être récupérée. Merci de réessayer dans quelques instants.";
-            res.status(500).json({ message, data: error });
-        });
+    .catch((error) => {
+         const message =
+            "La liste des livres n'a pas pu être récupérée. Merci de réessayer dans quelques instants.";
+         res.status(500).json({ message, data: error });
+    });
+});
+
+booksRouter.get('/title',(req,res) => {
+    modelBook.findAll({attributes:['title'], order: ["title"] }).then((books) => {
+        const message = "La liste des livres a bien été récupérée.";
+        res.json(success(message, books));
+    })
+    .catch((error) => {
+         const message =
+            "La liste des livres n'a pas pu être récupérée. Merci de réessayer dans quelques instants.";
+         res.status(500).json({ message, data: error });
+    });
+})
+
+booksRouter.get("/epub", /*auth,*/ (req, res) => {
+    modelBook.findAll({ order: ["title"] }).then((books) => {
+        const message = "La liste des livres a bien été récupérée.";
+        res.set({
+            'Content-Type': 'application/epub+zip',
+            'Content-Disposition': 'attachment; filename="nom_du_fichier.epub"'
+          });
+        res.status(200).send(books.epub)
+    })
+    .catch((error) => {
+         const message =
+            "La liste des livres n'a pas pu être récupérée. Merci de réessayer dans quelques instants.";
+         res.status(500).json({ message, data: error });
+    });
 });
 
 //// Get one book by id
@@ -50,7 +78,7 @@ booksRouter.get("/:id", /*auth,*/ (req, res) => {
             return res.status(404).json({ message });
         }
         const message = `Le livre dont l'id vaut ${book.id} a bien été récupéré.`;
-        res.json(success(message, book));
+        res.json(success(message, book.title));
     })
         .catch((error) => {
             const message =
@@ -71,7 +99,7 @@ booksRouter.get("/:id/epub", /*auth,*/ (req, res) => {
             'Content-Type': 'application/epub+zip',
             'Content-Disposition': 'attachment; filename="nom_du_fichier.epub"'
           });
-        res.status(200).send(book.epub)
+        res.status(200).send(book)
     })
         .catch((error) => {
             const message =

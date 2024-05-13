@@ -7,12 +7,12 @@
       "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:livres.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\livres.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:livres.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|solutionrelative:appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{22F3DBD0-424B-4A69-B1D4-11BB623FA764}|passionLecture.csproj|c:\\users\\po66qga\\documents\\github\\passionlecture\\code\\passionlecture\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -40,33 +40,33 @@
               "RelativeDocumentMoniker": "livres.xaml.cs",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml.cs",
               "RelativeToolTip": "livres.xaml.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABgAAAALAAAA",
+              "ViewState": "AQIAAAoAAAAAAAAAAAAAwBcAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-15T11:09:59.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "livres.xaml",
               "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml",
               "RelativeDocumentMoniker": "livres.xaml",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\livres.xaml",
               "RelativeToolTip": "livres.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-25T14:03:19.995Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "AppShell.xaml",
               "DocumentMoniker": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\AppShell.xaml",
               "RelativeDocumentMoniker": "AppShell.xaml",
               "ToolTip": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\AppShell.xaml",
               "RelativeToolTip": "AppShell.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAABYAAAAeAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBYAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-03-25T13:44:20.484Z",
               "EditorCaption": ""
@@ -94,8 +94,7 @@
               "RelativeToolTip": "MainPage.xaml",
               "ViewState": "AQIAAAkAAAAAAAAAAIBJwCEAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-25T12:36:22.645Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-25T12:36:22.645Z"
             }
           ]
         }

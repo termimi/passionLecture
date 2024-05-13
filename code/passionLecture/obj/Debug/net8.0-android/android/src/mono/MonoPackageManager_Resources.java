@@ -31,6 +31,7 @@ public class MonoPackageManager_Resources {
 		"System.Security.Cryptography.ProtectedData.dll",
 		"System.Security.Permissions.dll",
 		"System.Windows.Extensions.dll",
+		"VersOne.Epub.dll",
 		"Xamarin.Android.Glide.dll",
 		"Xamarin.Android.Glide.Annotations.dll",
 		"Xamarin.Android.Glide.DiskLruCache.dll",

@@ -1052,3 +1052,4 @@ C:\Users\po66qga\Documents\GitHub\passionLecture\code\passionLecture\obj\Debug\n
 C:\Users\po66qga\Documents\GitHub\passionLecture\code\passionLecture\obj\Debug\net8.0-android\android\marshal_methods.x86_64.o
 C:\Users\po66qga\Documents\GitHub\passionLecture\code\passionLecture\obj\Debug\net8.0-android\android\jni_remap.x86_64.o
 C:\Users\po66qga\Documents\GitHub\passionLecture\code\passionLecture\obj\Debug\net8.0-android\app_shared_libraries\x86_64\libxamarin-app.so
+C:\Users\po66qga\Documents\GitHub\passionLecture\code\passionLecture\obj\Debug\net8.0-android\android\assets\VersOne.Epub.dll

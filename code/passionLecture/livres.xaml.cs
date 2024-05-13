@@ -8,6 +8,7 @@ using System.Net.Http;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using VersOne.Epub;
+using System.IO.Compression;
 namespace passionLecture;
 
 public partial class livres : ContentPage
@@ -21,20 +22,30 @@ public partial class livres : ContentPage
     private async void GetBooks2(object sender, EventArgs e)
     {
         
-        string apiUrl = "http://10.0.2.2:3000/api/books/2";
+        string apiUrl = "http://10.0.2.2:3000/api/books/title";
         try
         {
-            
-            EpubBook response = await client.GetAsync(apiUrl);
-
-            response.EnsureSuccessStatusCode();
-             
+            var response = await client.GetAsync(apiUrl);
+            if (response.IsSuccessStatusCode)
+            {
+                try
+                {
+                    var content = response.Content;
+                    //EpubBook book = EpubReader.ReadBook(content.ReadAsStream());
+                    allBooksLabel.Text = content.ToString();
+                }
+                catch (Exception ex)
+                {
+                    allBooksLabel.Text += ex.Message;
+                }
+            }
         }
-        catch (Exception ex)
+        catch(Exception ex)
         {
-           await DisplayAlert("erreur: ", ex.Message, "Nul");
-            //return "Erreur : "+ ex.Message;
+            allBooksLabel.Text = ex.Message;
         }
+        
+        
     }
 
 }
