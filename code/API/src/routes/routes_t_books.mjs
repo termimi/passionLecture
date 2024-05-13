@@ -41,9 +41,9 @@ booksRouter.get("/", (req, res) => {
 });
 
 booksRouter.get('/title',(req,res) => {
-    modelBook.findAll({attributes:['title'], order: ["title"] }).then((books) => {
+    modelBook.findAll({attributes:['title'],order: ["title"] }).then((books) => {
         const message = "La liste des livres a bien été récupérée.";
-        res.json(success(message, books));
+        res.send(JSON.stringify(books));
     })
     .catch((error) => {
          const message =
@@ -99,7 +99,7 @@ booksRouter.get("/:id/epub", /*auth,*/ (req, res) => {
             'Content-Type': 'application/epub+zip',
             'Content-Disposition': 'attachment; filename="nom_du_fichier.epub"'
           });
-        res.status(200).send(book)
+        res.status(200).send(book.epub)
     })
         .catch((error) => {
             const message =

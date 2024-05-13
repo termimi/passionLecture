@@ -55,7 +55,7 @@ let initDB = () => {
             importBooks(folderPath);
             importAuthor();
             importComment();
-            // importWriting();
+            //importWriting();
             console.log("La base de donnée db_librairie a bien été créé");
         });
 };
@@ -126,22 +126,19 @@ const importBooks = (folderPath) => {
     // insère dans la db
     for(let i =0 ; i< files.length; i++){
         const filePath = path.join(folderPath,files[i]);
-        console.log("jfbefb3f"+filePath)
         const epubFile = fs.readFileSync(filePath);
         console.log(epubFile)
-        dataBooks.map((book) => {
             modelBook.create({
-                price: book.price,
-                title: book.title,
+                price: dataBooks[i].price,
+                title:dataBooks[i].title,
                 epub:epubFile,
-                image: book.image,
-                categories_id: book.categories_id,
-                customers_id: book.customers_id,
-                authors_id: book.authors_id,
-                page_count: book.page_count,
-                summary: book.summary
+                image: dataBooks[i].image,
+                categories_id: dataBooks[i].categories_id,
+                customers_id: dataBooks[i].customers_id,
+                authors_id: dataBooks[i].authors_id,
+                page_count: dataBooks[i].page_count,
+                summary: dataBooks[i].summary
             }).then((book) => console.log(book.toJSON()));
-        });
     }
 };
 

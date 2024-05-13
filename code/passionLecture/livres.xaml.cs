@@ -9,6 +9,7 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 using VersOne.Epub;
 using System.IO.Compression;
+
 namespace passionLecture;
 
 public partial class livres : ContentPage
@@ -26,13 +27,18 @@ public partial class livres : ContentPage
         try
         {
             var response = await client.GetAsync(apiUrl);
+            
             if (response.IsSuccessStatusCode)
             {
                 try
                 {
                     var content = response.Content;
                     //EpubBook book = EpubReader.ReadBook(content.ReadAsStream());
-                    allBooksLabel.Text = content.ToString();
+                    var stream = content.ReadAsStream();
+                    StreamReader textStream = new StreamReader(stream);
+                    string bla = textStream.ReadLine();
+                    
+                    allBooksLabel.Text = bla;
                 }
                 catch (Exception ex)
                 {
