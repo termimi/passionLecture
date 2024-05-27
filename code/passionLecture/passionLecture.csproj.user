@@ -7,6 +7,9 @@
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Lecture.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="livres.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

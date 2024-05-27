@@ -71,6 +71,10 @@
               "target": "Package",
               "version": "[24.4.0, )"
             },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.61, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -121,6 +125,10 @@
             "Aspose.PDF": {
               "target": "Package",
               "version": "[24.4.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.61, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
@@ -173,6 +181,10 @@
               "target": "Package",
               "version": "[24.4.0, )"
             },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.61, )"
+            },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",
               "version": "[8.0.0, )"
@@ -224,6 +236,10 @@
             "Aspose.PDF": {
               "target": "Package",
               "version": "[24.4.0, )"
+            },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.61, )"
             },
             "Microsoft.Extensions.Logging.Debug": {
               "target": "Package",

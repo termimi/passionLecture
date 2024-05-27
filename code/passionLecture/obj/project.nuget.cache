@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "ETUuuLRB3ol0HCMECt/MkKFR9qVOgiVvxXGGnXnzgxkMqujLQZP5U0nK2ZV6bYHsQxU35b1VjZicTacaDwG91g==",
+  "dgSpecHash": "QNB9X+s9HM3O8UPu3RvSK9606AC8UdrafWrXwg/edcrBMOYuf0b7qKH2VI6Hiqf8n+thLcy1Pcm83BT1ykzrFA==",
   "success": true,
   "projectFilePath": "C:\\Users\\po66qga\\Documents\\GitHub\\passionLecture\\code\\passionLecture\\passionLecture.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\po66qga\\.nuget\\packages\\aspose.pdf\\24.4.0\\aspose.pdf.24.4.0.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
+    "C:\\Users\\po66qga\\.nuget\\packages\\htmlagilitypack\\1.11.61\\htmlagilitypack.1.11.61.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",
     "C:\\Users\\po66qga\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\8.0.0\\microsoft.extensions.dependencyinjection.8.0.0.nupkg.sha512",

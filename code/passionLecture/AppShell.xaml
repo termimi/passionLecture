@@ -23,5 +23,13 @@
                 Route="livres"
             />
         </Tab>
+        <Tab Title="Lecture">
+            <ShellContent
+                ContentTemplate="{DataTemplate local:Lecture}"
+                Route="Lecture"
+            />
+        </Tab>
+
+
     </TabBar>
 </Shell>

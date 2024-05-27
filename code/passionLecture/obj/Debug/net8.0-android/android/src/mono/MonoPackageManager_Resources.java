@@ -5,6 +5,7 @@ public class MonoPackageManager_Resources {
 		"passionLecture.dll",
 		"Aspose.PDF.dll",
 		"GoogleGson.dll",
+		"HtmlAgilityPack.dll",
 		"Microsoft.Extensions.Configuration.dll",
 		"Microsoft.Extensions.Configuration.Abstractions.dll",
 		"Microsoft.Extensions.DependencyInjection.dll",

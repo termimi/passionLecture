@@ -52,14 +52,15 @@ booksRouter.get('/title',(req,res) => {
     });
 })
 
-booksRouter.get("/epub", /*auth,*/ (req, res) => {
+booksRouter.get("/numberOfBook", /*auth,*/ (req, res) => {
     modelBook.findAll({ order: ["title"] }).then((books) => {
         const message = "La liste des livres a bien été récupérée.";
-        res.set({
+        /*res.set({
             'Content-Type': 'application/epub+zip',
             'Content-Disposition': 'attachment; filename="nom_du_fichier.epub"'
-          });
-        res.status(200).send(books.epub)
+          });*/
+         console.log(books)
+         res.status(200).json(books.length);   
     })
     .catch((error) => {
          const message =
